@@ -1,0 +1,44 @@
+:root{
+    --prymary: #6a8c9e;
+}
+
+html{
+ box-sizing: border-box;
+}
+
+
+form{
+    background-color: rgb(76, 117, 211);
+    width: 400px;
+    height: auto;
+    border: 5px solid var(--prymary);
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+.form--label{
+    width: 100px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px;
+}
+
+form input {
+    background-color: rgb(193, 205, 233);
+    width: 200px;
+    height: 23px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.form--btn{
+    background-color: #6a8c9e;
+    height: 30px;
+    width: 90px;
+    border: none;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 155px;
+}
