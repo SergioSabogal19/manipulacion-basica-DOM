@@ -42,3 +42,9 @@ form input {
     display: inline-block;
     margin-left: 155px;
 }
+
+.form--img {
+    border-radius: 10px;
+    border: solid 8px;
+    border-color: chartreuse;
+}
